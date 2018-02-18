@@ -4,7 +4,7 @@
   <title><![CDATA[志鹏世说]]></title>
   <link href="cosiohzp.github.io/atom.xml" rel="self"/>
   <link href="cosiohzp.github.io/"/>
-  <updated>2018-02-18T10:49:42+08:00</updated>
+  <updated>2018-02-18T10:50:53+08:00</updated>
   <id>cosiohzp.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -19,20 +19,58 @@
     <updated>2018-02-15T08:48:01+08:00</updated>
     <id>cosiohzp.github.io/15186556813027.html</id>
     <content type="html"><![CDATA[
-<p>参考资料一：<a href="https://www.zhihu.com/question/20463581/answer/25478916">如何搭建个人独立博客？ - 陈素封的回答 - 知乎</a><br/>
-参考资料二：<a href="http://www.pchou.info/ssgithubPage/2013-01-03-build-github-blog-page-01.html">一步步在GitHub上创建博客主页</a></p>
+<h2 id="toc_0">参考资料</h2>
 
-<p>初心：<br/>
+<p>参考资料一：<a href="https://www.zhihu.com/question/20463581/answer/25478916">如何搭建个人独立博客？ - 陈素封的回答 - 知乎</a><br/>
+参考资料二：<a href="http://www.pchou.info/ssgithubPage/2013-01-03-build-github-blog-page-01.html">一步步在GitHub上创建博客主页</a><br/>
+初心：<br/>
 输出自己整理自己知识<br/>
 有一个发声的地儿<br/>
-长尾不求流量</p>
-
-<p>目标：<br/>
-申请个人公众号：志鹏世说 以及 个人博客www.zhipengtalk.com</p>
+长尾不求流量<br/>
+目标：<br/>
+申请个人公众号：志鹏世说 以及 个人博客www.zhipeng.ink</p>
 
 <p>配置 SSH keys</p>
 
-<p>更新测试</p>
+<h2 id="toc_1">涉及到的工具</h2>
+
+<ul>
+<li>Mweb：博客书写工具</li>
+<li>Github Desktop：桌面管理与上传</li>
+<li>Git：Git环境配置</li>
+</ul>
+
+<h2 id="toc_2">步骤</h2>
+
+<h3 id="toc_3">一、配置Git环境</h3>
+
+<h3 id="toc_4">二、网站GitHub的设置</h3>
+
+<ol>
+<li>设置一个仓库<code>username.github.io</code></li>
+<li>记录下</li>
+</ol>
+
+<h3 id="toc_5">三、设置Mweb，生成本地网站并预览</h3>
+
+<ol>
+<li>设置本地静态网站的文件夹，名字可以不和<code>username.github.io</code>一样</li>
+<li>设置几个分类，尝试往里面放几个文章</li>
+<li>到terminal里面运行</li>
+</ol>
+
+<h3 id="toc_6">四、更新方法</h3>
+
+<ol>
+<li>写文章</li>
+<li>文件夹右键点击生成网站</li>
+<li><p>GitHub desktop里面更新</p></li>
+</ol>
+
+<ul>
+<li>实测大约要20分钟才能看到</li>
+<li>之后每次都右键点一下生成网站，然后在GitHub desktop里同步到项目中。</li>
+</ul>
 
 ]]></content>
   </entry>
@@ -73,24 +111,21 @@
 
 <h3 id="toc_1">卡片划分：</h3>
 
-<h4 id="toc_2">白色：①案例卡、②金句卡、③任意卡、④素材卡</h4>
+<p><strong>白色</strong>：①案例卡、②金句卡、③任意卡、④素材卡<br/>
+<strong>绿色「对应绿笔」</strong>：反常识卡、人名卡、术语卡<br/>
+<strong>蓝色「对应蓝笔」</strong>：技巧卡、结构卡<br/>
+<strong>红色「对应红笔」</strong>：——表明未完成：行动卡、思考卡「可挂可单独」、RIA卡「挂钩连用」</p>
 
-<h4 id="toc_3">绿色「对应绿笔」：反常识卡、人名卡、术语卡</h4>
+<h3 id="toc_2">卡片使用：</h3>
 
-<h4 id="toc_4">蓝色「对应蓝笔」：技巧卡、结构卡</h4>
+<h3 id="toc_3">卡片与纸质阅读：</h3>
 
-<h4 id="toc_5">红色「对应红笔」——表明未完成：行动卡、思考卡「可挂可单独」、RIA卡「挂钩连用」</h4>
-
-<h3 id="toc_6">卡片使用：</h3>
-
-<h3 id="toc_7">卡片与纸质阅读：</h3>
-
-<h3 id="toc_8">卡片与生活</h3>
+<h3 id="toc_4">卡片与生活</h3>
 
 <p>把你的一切输入卡片化：日记、互联网文章<br/>
 方法展示：笔记端选择：开源</p>
 
-<h3 id="toc_9">卡片存档：</h3>
+<h3 id="toc_5">卡片存档：</h3>
 
 <p>电子化<br/>
 太长的文字电子化<br/>
