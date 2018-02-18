@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[志鹏世说]]></title>
+  <link href="cosiohzp.github.io/atom.xml" rel="self"/>
+  <link href="cosiohzp.github.io/"/>
+  <updated>2018-02-18T10:23:20+08:00</updated>
+  <id>cosiohzp.github.io/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im">MWeb</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[建立个人博客]]></title>
+    <link href="cosiohzp.github.io/15186556813027.html"/>
+    <updated>2018-02-15T08:48:01+08:00</updated>
+    <id>cosiohzp.github.io/15186556813027.html</id>
+    <content type="html"><![CDATA[
+<p>参考资料一：<a href="https://www.zhihu.com/question/20463581/answer/25478916">如何搭建个人独立博客？ - 陈素封的回答 - 知乎</a><br/>
+参考资料二：<a href="http://www.pchou.info/ssgithubPage/2013-01-03-build-github-blog-page-01.html">一步步在GitHub上创建博客主页</a></p>
+
+<p>初心：<br/>
+输出自己整理自己知识<br/>
+有一个发声的地儿<br/>
+长尾不求流量</p>
+
+<p>目标：<br/>
+申请个人公众号：志鹏世说 以及 个人博客www.zhipengtalk.com</p>
+
+<p>配置 SSH keys</p>
+
+]]></content>
+  </entry>
+  
+</feed>
