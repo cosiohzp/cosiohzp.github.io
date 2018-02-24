@@ -4,7 +4,7 @@
   <title><![CDATA[志鹏世说]]></title>
   <link href="cosiohzp.github.io/atom.xml" rel="self"/>
   <link href="cosiohzp.github.io/"/>
-  <updated>2018-02-19T15:14:07+08:00</updated>
+  <updated>2018-02-19T15:15:15+08:00</updated>
   <id>cosiohzp.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,6 +12,163 @@
   </author>
   <generator uri="http://www.mweb.im">MWeb</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[笨方法学写作00：制作知识卡片]]></title>
+    <link href="cosiohzp.github.io/15194403686402.html"/>
+    <updated>2018-02-24T10:46:08+08:00</updated>
+    <id>cosiohzp.github.io/15194403686402.html</id>
+    <content type="html"><![CDATA[
+<h2 id="toc_0">我的制作原则</h2>
+
+<p>快速记录，沉浸体验，减少切换，统一处理，归于一处。</p>
+
+<h2 id="toc_1">一、卡片选择</h2>
+
+<p>纸质创作的卡片和电子的创作的卡片，电子的选用Evernote，纸质的（附链接）<br/>
+备选：Draft4（移动端）</p>
+
+<p><strong>Draft的优势</strong></p>
+
+<ul>
+<li>点开即写</li>
+<li>一键发送回Evernote生成卡片</li>
+</ul>
+
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forc6rxcxpj30mt0op444.jpg" alt=""/></p>
+
+<hr/>
+
+<h2 id="toc_2">二、卡片制作</h2>
+
+<h3 id="toc_3">创作纸质版卡片</h3>
+
+<ol>
+<li>书写</li>
+<li>简单归档</li>
+<li>其他</li>
+<li>不推荐使用便利贴，个人感受，便利贴用于贴书合适，用于写作感受比较差</li>
+</ol>
+
+<h3 id="toc_4">创作电子版卡片</h3>
+
+<p><strong>场景：</strong>不方便携带<br/>
+<strong>使用范围：</strong>整理思考、整理公众号文章碎片知识<br/>
+<strong>涉及到的软件：</strong>workflow、Evernote、Draft4</p>
+
+<hr/>
+
+<h2 id="toc_5">三、卡片管理</h2>
+
+<h3 id="toc_6">管理和分类理念</h3>
+
+<p>无论是在Draft4中创作的电子卡片，还是纸质的卡片，都归于一处，方便存档。</p>
+
+<h4 id="toc_7">命名</h4>
+
+<p><strong>文字卡片</strong>：Card_Txt @ 创建时间<br/>
+<strong>图片卡片</strong>：Card_Pic @ 创建时间<br/>
+<strong>思考卡片</strong>：Card_Q&amp;A @ 创建时间</p>
+
+<h4 id="toc_8">使用场景展示</h4>
+
+<ol>
+<li><p>各类APP里面摘抄形成文字卡片。</p></li>
+</ol>
+
+<ul>
+<li><p>微信<br/>
+<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forbhsacz7g30880hskjq.gif" alt=""/></p></li>
+<li><p>此脚本可以运用在任意网页阅读或其他任意APP阅读中，不需要反复跳出APP，沉浸式阅读体验。</p></li>
+<li><p><a href="https://workflow.is/workflows/c4bb53d636994c0f9c01756f4f20f293">「Workflow脚本_文字卡片制作」</a> 注：需下载Workflow和印象笔记</p></li>
+</ul>
+
+<ol>
+<li>截图或者保存任意一张图片，并生成图片卡片，且自动删除图片。</li>
+<li><p><a href="https://workflow.is/workflows/5596acac20724de59be2fdc3a4abd5c7">「Workflow脚本_图片卡片制作」</a><br/>
+<img src="https://ws4.sinaimg.cn/large/006tKfTcgy1forc77zjp4g30880hs7wp.gif" alt=""/></p></li>
+<li><p>电子书卡片制作。</p></li>
+<li><p>电子书转PDF格式或epub格式，在Margin Pro中阅读</p></li>
+<li><p>手机端，纸质卡片（单张）转电子版，并保存在「!知识卡片」。<br/>
+<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forcbhjf1ag30880hs7wn.gif" alt=""/></p></li>
+</ol>
+
+<h4 id="toc_9">问答</h4>
+
+<p><strong>Q：要不要给卡片打标签？</strong></p>
+
+<p>A：不打，统一放在「!知识卡片」文件夹，做下一步整理</p>
+
+<p><strong>Q：要不要那么麻烦？优势在哪？</strong></p>
+
+<p>A：整理出来麻烦而已，其实都是workflow脚本自动化解决。各类APP做摘要的通用解决方案，不需要跳出APP，不影响阅读体验，后台自动生成卡片</p>
+
+<p><strong>Q：读纸质书怎么做卡片？</strong></p>
+
+<p>A：不建议读书同时做电子版卡片，原因：影响认知和深度思考过程。就像L先生说的观点一样：</p>
+
+<blockquote>
+<p>记住一个最基本的原则：人类的大脑是没法进行「多线程处理」的。人同一时间只能聚焦在一件事情上面。所谓的「多任务工作」并不是真的「同时进行」，而是大脑不断地在这些不同的事务之间打断和切换而已。</p>
+</blockquote>
+
+<p><strong>选用Evernote原因：</strong></p>
+
+<ol>
+<li>归于一处，作为知识库统一管理</li>
+<li>扫描宝快速归档纸质卡片</li>
+<li>PC端有知识联想链接功能
+<img src="https://ws3.sinaimg.cn/large/006tKfTcgy1forcaix7mjj30my0os445.jpg" alt=""/></li>
+</ol>
+
+<h1 id="toc_10">下期更新计划：第一张纸质卡片练习</h1>
+
+<hr/>
+
+<ul>
+<li>
+<a href="#toc_0">我的制作原则</a>
+</li>
+<li>
+<a href="#toc_1">一、卡片选择</a>
+</li>
+<li>
+<a href="#toc_2">二、卡片制作</a>
+<ul>
+<li>
+<a href="#toc_3">创作纸质版卡片</a>
+</li>
+<li>
+<a href="#toc_4">创作电子版卡片</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_5">三、卡片管理</a>
+<ul>
+<li>
+<a href="#toc_6">管理和分类理念</a>
+<ul>
+<li>
+<a href="#toc_7">命名</a>
+</li>
+<li>
+<a href="#toc_8">使用场景展示</a>
+</li>
+<li>
+<a href="#toc_9">问答</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_10">下期更新计划：第一张纸质卡片练习</a>
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[写作课作业：陈素封的社群十五问]]></title>
