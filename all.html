@@ -63,6 +63,14 @@
           
 
       
+        <li class="divider"></li>
+        <li><label>说杂谈</label></li>
+
+          
+            <li><a title="分享：【应用程序发布到阿里云服务器详细过程（附279元即购买3年阿里云服务器福利）】" href="15227643797679.html">分享：【应用程序发布到阿里云服务器详细过程（附279元即购买3年阿里云服务器福利）】</a></li>
+          
+
+      
       </ul>
     </aside>
 
@@ -94,6 +102,12 @@
                         
 
                     
+                      <li class="side-title"><span>说杂谈</span></li>
+                        
+                          <li><a title="分享：【应用程序发布到阿里云服务器详细过程（附279元即购买3年阿里云服务器福利）】" href="15227643797679.html">分享：【应用程序发布到阿里云服务器详细过程（附279元即购买3年阿里云服务器福利）】</a></li>
+                        
+
+                    
                   </ul>
                 </nav>
                 </div>
@@ -106,157 +120,82 @@
 
 	
 		<div class="markdown-body">
-		<h1>笨方法学写作00：制作知识卡片</h1>
+		<h1>分享：【应用程序发布到阿里云服务器详细过程（附279元即购买3年阿里云服务器福利）】</h1>
 
-		<h2 id="toc_0">我的制作原则</h2>
+		<h3 id="toc_0">前言</h3>
 
-<p>快速记录，沉浸体验，减少切换，统一处理，归于一处。</p>
+<p>本文假定你已经有如下基础：<br/>
+1、已经可以用活字格设计器作出自己的简单程序<br/>
+2、可以使用活字格设计器完成简单的基本功能调试<br/>
+3、有一定的动手能力，依样画葫芦可以完成下述步骤<br/>
+准备<br/>
+1、注册阿里云账号<br/>
+2、自己的活字格程序 ***.fgcc文件</p>
 
-<h2 id="toc_1">一、卡片选择</h2>
+<h3 id="toc_1">一、购买阿里云服务器（附附279元即购买3年阿里云服务器福利）</h3>
 
-<p>纸质创作的卡片和电子的创作的卡片，电子的选用Evernote，纸质的（附链接）<br/>
-备选：Draft4（移动端）</p>
+<p>本文免费分享，均经过实际测试，于2018年4月3日下午调试完全可以实现。如果您觉得认可我的努力，那就顺便再买服务器的时候，用购买链接团购吧，现在是279元/3年，以后有没有类似的活动就很难说了。要知道，国外最便宜的搬瓦工、Linode 等 VPS 至少也要个 3~5 美金一个月！国内机器最起码网络连通的稳定性无敌。：<a href="https://promotion.aliyun.com/ntms/act/group/team.html?group=IqTiANnbrX">https://promotion.aliyun.com/ntms/act/group/team.html?group=IqTiANnbrX</a></p>
 
-<p><strong>Draft的优势</strong></p>
+<p>好了，广告结束，下面说步骤：<br/>
+1. 点击上面的<a href="https://promotion.aliyun.com/ntms/act/group/team.html?group=IqTiANnbrX">团购链接</a>，当然，服务器版本选择279元/3年<br/>
+2. 服务器类型选windows sever 2008 sp2【暂时的，后面还要重装】<br/>
+3. 过3-5分钟，阿里云会发短信给你，提示服务器设置好了，登录开始下一步设置，请记录下你的<strong>公网IP</strong>，后面会使用到。<br/>
+ <img src="http://p1ploihe0.bkt.clouddn.com/15227611498429.jpg" alt=""/></p>
 
-<ul>
-<li>点开即写</li>
-<li><p>一键发送回Evernote生成卡片</p></li>
-<li><p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1forc6oxs0ug30880hsqv8.gif" alt=""/></p></li>
-</ul>
+<h3 id="toc_2">二、设置阿里云服务器（后简称阿里云）权限</h3>
 
-<hr/>
+<h4 id="toc_3">2.1 设置阿里云，重置administrator的密码，并且开放80和22345端口（跟步骤2.2不分先后）</h4>
 
-<h2 id="toc_2">二、卡片制作</h2>
+<p><strong>2.1.1 重置administrator的密码</strong><br/>
+打开侧边栏→实例→更多→重置密码。请换一个高强度的密码，这个是你自己服务器的“家门钥匙”，务必认真修改，妥善管理。<br/>
+<img src="http://p1ploihe0.bkt.clouddn.com/15227617740260.jpg" alt=""/></p>
 
-<h3 id="toc_3">创作纸质版卡片</h3>
+<p><strong>2.2.2 开放80端口访问权限</strong><br/>
+打开侧边栏→实例→管理→侧边栏：本实例安全组→配置规则→添加安全组规则：<br/>
+<img src="http://p1ploihe0.bkt.clouddn.com/15227621703165.jpg" alt=""/></p>
 
-<ol>
-<li>书写</li>
-<li>简单归档</li>
-<li>其他</li>
-<li>不推荐使用便利贴，个人感受，便利贴用于贴书合适，用于写作感受比较差</li>
-</ol>
+<p><strong>2.2.3 开放22345端口访问权限</strong><br/>
+方法同上，设置完，你应该看到下图<br/>
+<img src="http://p1ploihe0.bkt.clouddn.com/15227622709343.jpg" alt=""/></p>
 
-<h3 id="toc_4">创作电子版卡片</h3>
+<h4 id="toc_4">2.2 重装阿里云服务器的系统</h4>
 
-<p><strong>场景：</strong>不方便携带<br/>
-<strong>使用范围：</strong>整理思考、整理公众号文章碎片知识<br/>
-<strong>涉及到的软件：</strong>workflow、Evernote、Draft4</p>
+<p><strong>2.2.1 阿里云停机：打开侧边栏→实例→更多→停止，如下</strong><br/>
+<img src="http://p1ploihe0.bkt.clouddn.com/15227623354721.jpg" alt=""/></p>
 
-<hr/>
+<p><strong>2.2.2 重装阿里云服务器的系统</strong><br/>
+打开侧边栏→实例→更多→更换系统盘<br/>
+系统选择装下面这一款，请自行搜索</p>
 
-<h2 id="toc_5">三、卡片管理</h2>
+<p><img src="http://p1ploihe0.bkt.clouddn.com/15227626871054.jpg" alt=""/></p>
 
-<h3 id="toc_6">管理和分类理念</h3>
+<p>安装好后，会给你发一条确认短信，登录阿里云，将服务器开机<br/>
+<img src="http://p1ploihe0.bkt.clouddn.com/WechatIMG4.jpeg" alt="WechatIMG4"/></p>
 
-<p>无论是在Draft4中创作的电子卡片，还是纸质的卡片，都归于一处，方便存档。</p>
+<p>2.2.3 阿里云服务器开机</p>
 
-<h4 id="toc_7">命名</h4>
+<h3 id="toc_5">三、将活字格服务器（活字格）安装到阿里云</h3>
 
-<p><strong>文字卡片</strong>：Card_Txt @ 创建时间<br/>
-<strong>图片卡片</strong>：Card_Pic @ 创建时间<br/>
-<strong>思考卡片</strong>：Card_Q&amp;A @ 创建时间</p>
+<p>3.1 登录到你的阿里云，方法参考<a href="https://jingyan.baidu.com/article/91f5db1bcc1a8f1c7f05e397.html">https://jingyan.baidu.com/article/91f5db1bcc1a8f1c7f05e397.html</a></p>
 
-<h4 id="toc_8">使用场景展示</h4>
+<p>3.2 在活字格QQ群里面，下载到下面三个文件，传到阿里云里面保存。这次注意，不支持拖拽，用ctrl+c/v可以。上传好以后，在阿里云中，先装前两个（不分先后），再安装活字格服务端（3.0.105.0）「其他版本请自行测试」</p>
 
-<ol>
-<li><p>各类APP里面摘抄形成文字卡片。</p></li>
-</ol>
+<p><img src="http://p1ploihe0.bkt.clouddn.com/15227628483856.jpg" alt=""/></p>
 
-<ul>
-<li><p>微信<br/>
-<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forbhsacz7g30880hskjq.gif" alt=""/></p></li>
-<li><p>此脚本可以运用在任意网页阅读或其他任意APP阅读中，不需要反复跳出APP，沉浸式阅读体验。</p></li>
-<li><p><a href="https://workflow.is/workflows/c4bb53d636994c0f9c01756f4f20f293">「Workflow脚本_文字卡片制作」</a> 注：需下载Workflow和印象笔记</p></li>
-</ul>
+<h3 id="toc_6">四、调试运行</h3>
 
-<ol>
-<li>截图或者保存任意一张图片，并生成图片卡片，且自动删除图片。</li>
-<li><p><a href="https://workflow.is/workflows/5596acac20724de59be2fdc3a4abd5c7">「Workflow脚本_图片卡片制作」</a><br/>
-<img src="https://ws4.sinaimg.cn/large/006tKfTcgy1forc77zjp4g30880hs7wp.gif" alt=""/></p></li>
-<li><p>电子书卡片制作。</p></li>
-<li><p>电子书转PDF格式或epub格式，在Margin Pro中阅读</p></li>
-<li><p>手机端，纸质卡片（单张）转电子版，并保存在「!知识卡片」。<br/>
-<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forcbhjf1ag30880hs7wn.gif" alt=""/></p></li>
-</ol>
-
-<h4 id="toc_9">问答</h4>
-
-<p><strong>Q：要不要给卡片打标签？</strong></p>
-
-<p>A：不打，统一放在「!知识卡片」文件夹，做下一步整理</p>
-
-<p><strong>Q：要不要那么麻烦？优势在哪？</strong></p>
-
-<p>A：整理出来麻烦而已，其实都是workflow脚本自动化解决。各类APP做摘要的通用解决方案，不需要跳出APP，不影响阅读体验，后台自动生成卡片</p>
-
-<p><strong>Q：读纸质书怎么做卡片？</strong></p>
-
-<p>A：不建议读书同时做电子版卡片，原因：影响认知和深度思考过程。就像L先生说的观点一样：</p>
-
-<blockquote>
-<p>记住一个最基本的原则：人类的大脑是没法进行「多线程处理」的。人同一时间只能聚焦在一件事情上面。所谓的「多任务工作」并不是真的「同时进行」，而是大脑不断地在这些不同的事务之间打断和切换而已。</p>
-</blockquote>
-
-<p><strong>选用Evernote原因：</strong></p>
-
-<ol>
-<li>归于一处，作为知识库统一管理</li>
-<li>扫描宝快速归档纸质卡片</li>
-<li>PC端有知识联想链接功能
-<img src="https://ws1.sinaimg.cn/large/006tKfTcgy1forc6rxcxpj30mt0op444.jpg" alt=""/></li>
-</ol>
-
-<h1 id="toc_10">下期更新计划：第一张纸质卡片练习</h1>
-
-<hr/>
-
-<ul>
-<li>
-<a href="#toc_0">我的制作原则</a>
-</li>
-<li>
-<a href="#toc_1">一、卡片选择</a>
-</li>
-<li>
-<a href="#toc_2">二、卡片制作</a>
-<ul>
-<li>
-<a href="#toc_3">创作纸质版卡片</a>
-</li>
-<li>
-<a href="#toc_4">创作电子版卡片</a>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_5">三、卡片管理</a>
-<ul>
-<li>
-<a href="#toc_6">管理和分类理念</a>
-<ul>
-<li>
-<a href="#toc_7">命名</a>
-</li>
-<li>
-<a href="#toc_8">使用场景展示</a>
-</li>
-<li>
-<a href="#toc_9">问答</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<a href="#toc_10">下期更新计划：第一张纸质卡片练习</a>
-
+<p>这步比较简单，就不说了。<br/>
+打开自己的活字格工程文件，点击发布，用前面的公共IP，填密码的时候请注意，不是阿里云的administrator密码，而是活字格的密码<br/>
+所以，没改过的话，活字格密码如下<br/>
+用户名：填写你服务器里活字格服务器的管理员账号administrator<br/>
+密码：填写你服务器里活字格服务器的管理员密码123456<br/>
+测试链接，Well Done！</p>
 
 
 		</div>
+	
+
+ 
 	
 
  
